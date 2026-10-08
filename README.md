@@ -1,4 +1,4 @@
-# EcoNexus AI
+## EcoNexus AI
 
 AI-powered environmental intelligence and dust-control platform for large construction sites.
 It forecasts PM10/PM2.5 from 15 minutes to 72 hours ahead with XGBoost, explains *why* with
