@@ -1,0 +1,19 @@
+# EcoNexus AI -- Python dependencies
+# Tested together on Python 3.12 and 3.13 (same core versions as the Epiworld project).
+# You don't normally run pip yourself: `python server.py` installs these into .venv on the first
+# run (see bootstrap.py). If your Python has no ready-made packages for these exact versions
+# (very new or older Python), bootstrap.py installs the newest compatible versions instead.
+#
+# Manual install:  pip install -r requirements.txt
+#
+# requests is only used by the optional Groq mode of the Copilot (chatbot.call_groq); everything
+# else -- forecasting, DUSTWISE, the twin, the Copilot's built-in engine -- works without it.
+
+Flask==3.1.3
+numpy==2.4.4
+pandas==3.0.2
+scipy==1.17.1
+scikit-learn==1.8.0
+xgboost==3.3.0
+joblib==1.5.3
+requests==2.33.1

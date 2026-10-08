@@ -1,0 +1,23 @@
+# Secrets -- never commit real credentials
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.venv/
+venv/
+env/
+.installed-*.json
+.requirements-relaxed.txt
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Runtime output
+*.log
+instance/
